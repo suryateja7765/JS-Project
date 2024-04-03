@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- heading Stopwatch -->
+    <h2>Stopwatch</h2>
+    <!-- main container -->
+    <div class="container">
+        <!-- timer  -->
+        <div class="timer-display">
+            00 : 00 : 00 : 000
+        </div>
+       <!-- buttons  -->
+        <div class="buttons">
+            <button id="start-timer">Start</button>
+            <button id="pause-timer">Pause</button>
+            <button id="split-timer">Split</button>
+            <button id="reset-timer">Reset</button>
+        </div>
+        
+    </div>
+<!-- instructions -->
+    <div class="instructions">
+        <h3>instructions:</h3>
+        <ol id="olli">
+            <li>click start button to start the time.</li>
+            <li>click pause button to pause the time</li>
+            <li>click split button to record a split time.</li>
+            <li>click reset button to reset the time and splits.</li>
+        </ol>
+    </div>
+<!-- current-time -->
+    <div id="current-time"></div>
+
+
+    <!-- split time  -->
+    <div class="split-times"></div>
+
+
+    <!-- script page -->
+    <script src="index.js"></script>
+
+
+
+    
+</body>
+</html>
